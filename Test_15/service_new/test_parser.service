@@ -1,0 +1,13 @@
+[Unit]
+Description=parser service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 -u workable.py /home/pi/Test_15/PatchedKML/
+WorkingDirectory=/home/pi/Test_15/
+Restart=on-abort
+User=pi
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,13 @@
+[Unit]
+Description=Decrypter Service
+After=multi-user.target
+
+[Service]
+Type=idle
+User=pi
+ExecStart=/usr/bin/java -jar MCSDecrypter.jar /home/pi/Test_15/fold/sync/SurakshitKml /home/pi/Test_15/kmlFiles  /home/pi/Test_15/fold/sync/pgpKey/pri_volunteer.bgp /home/pi/Test_15/fold/sync/pgpKey/pub_volunteer.bgp
+WorkingDirectory=/home/pi/Test_15/MCSDecrypter/out/artifacts/MCSDecrypter_jar
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,13 @@
+[Unit]
+Description=parser service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/pi/Test_15/DBBox/bin/python3 -u auto_summar.py
+WorkingDirectory=/home/pi/Test_15/
+Restart=on-abort
+User=pi
+
+[Install]
+WantedBy=multi-user.target

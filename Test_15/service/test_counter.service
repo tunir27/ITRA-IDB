@@ -1,0 +1,13 @@
+[Unit]
+Description=counter service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 -u counter.py /home/pi/Test_15/fold/sync/
+WorkingDirectory=/home/pi/Test_15/
+Restart=on-abort
+User=pi
+
+[Install]
+WantedBy=multi-user.target

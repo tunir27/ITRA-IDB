@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2' xmlns:gx='http://www.google.com/kml/ext/2.2'>
+<Document>
+<Placemark>
+<styleUrl>#1</styleUrl>
+<name>dd481eefecbb1fd</name>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>88.41972278356883,22.56963701622736,0.0 88.42154280852861,22.568963096162946,0.0 88.42398452518256,22.571117964793615,0.0 88.42131755791479,22.572507379599912,0.0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark>
+<styleUrl>#2</styleUrl>
+<name>7e14429adf91718f</name>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>88.4191771305189,22.568912954158606,0.0 88.42149657303605,22.568291406055977,0.0 88.42065065870628,22.566569535191334,0.0 88.41822206595299,22.567275084877934,0.0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<ExtendedData>
+<Data name="20180827173304"><value>20180827173319-text-none-Need help immediately-22.57378518_88.41767695</value></Data>
+<Data name="20180827173227"><value>20180827173237-text-none-Water level rising-22.57378518_88.41767695</value></Data>
+<Data name="source"><value>20180827173212-text-none-We are at iitkgp salt lake campus-22.57378518_88.41767695</value></Data>
+<Data name="total"><value>10</value></Data>
+<Data name="20180827173319"><value>20180827173717-text-none-Help incoming please wait-22.57378518_88.41767695</value></Data>
+<Data name="20180827173212"><value>20180827173227-text-none-Heavy flooding over here for the past few days-22.57378518_88.41767695</value></Data>
+<Data name="20180827173254"><value>20180827173304-text-none-100 people dead-22.57378518_88.41767695</value></Data>
+<Data name="20180827174113"><value>20180827174134-map-7e14429adf91718f-928994c6c7a7bef5b79c66a0072ac64c_v9547745926_volunteer_50_8fb863ac442f3cc0.png-22.57378518_88.41767695</value></Data>
+<Data name="20180827173237"><value>20180827173254-text-none-Many people gravely injured-22.57378518_88.41767695</value></Data>
+<Data name="20180827173717"><value>20180827173744-image-none-928994c6c7a7bef5b79c66a0072ac64c_v9547745926_volunteer_50_be4cfb39b8b24fe7.jpeg-22.57378518_88.41767695</value></Data>
+<Data name="20180827173744"><value>20180827174113-map-dd481eefecbb1fd-928994c6c7a7bef5b79c66a0072ac64c_v9547745926_volunteer_50_928bcbc0b65fc37e.png-22.57378518_88.41767695</value></Data>
+</ExtendedData>
+<Style id='1'>
+<LineStyle>
+<color>FF000000</color>
+<width>10.0</width>
+</LineStyle>
+<PolyStyle>
+<color>00000000</color>
+</PolyStyle>
+</Style>
+<Style id='2'>
+<LineStyle>
+<color>FF000000</color>
+<width>10.0</width>
+</LineStyle>
+<PolyStyle>
+<color>00000000</color>
+</PolyStyle>
+</Style>
+</Document>
+</kml>
